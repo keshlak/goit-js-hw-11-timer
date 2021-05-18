@@ -1,0 +1,29 @@
+body {
+  background-color: wheat;
+  text-align: center;
+}
+
+h1 {
+  color: tomato;
+  font-size: 70px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  font-size: 36px;
+  display: block;
+  font-style: italic;
+}
+
+.label {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.field:not(:first-child) {
+  margin-left: 40px;
+}
